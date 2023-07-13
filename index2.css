@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+h1 {
+    text-align: center;
+}
+.section-1-2 {
+    display: flex;
+    grid-column-gap: 20px;
+}
+.section1 {
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+}
+.section2 {
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+}
+
+/* main de todas las paginas menos la principal */
+.main-index{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "section1 section2";
+    grid-column-gap: 20px;
+}
+
+.section1 {
+    height: 100%;
+    width: 100%;
+    grid-area: section1;
+}
+.section2 {
+    height: 100%;
+    width: 100%;
+    grid-area: section2;
+}
+.div-card-html5 {
+    display: flex;
+}
+.main-card {
+    margin-top: 15px;
+    display: flex;
+    grid-column-gap: 190px;
+}
+
+.main-html3{
+    display: flex;
+    grid-column-gap:38px;
+}
+.html5-section {
+    display: flex;
+    grid-column-gap:38px;
+}
+
+/* footer */
